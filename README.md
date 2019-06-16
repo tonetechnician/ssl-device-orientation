@@ -7,7 +7,7 @@ It is combined with the example taken from [here](https://developer.mozilla.org/
 As seen in index.js, the openssl tool is used to generate the SSL/TLS certificate required by the browser to secure the connection. Currently a basic certificate is generated with the following credentials. 
 
 
-** Certificate Details **
+**Certificate Details**
 Lifetime: 365 days
 
 Country: US
