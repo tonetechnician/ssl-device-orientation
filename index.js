@@ -62,12 +62,12 @@ if ( protocol === 'https' ) {
 				`openssl req -x509 -newkey rsa:2048 -keyout ./certs/key.tmp.pem -out ${ certificate } -days 365 -nodes -subj "/C=US/ST=Foo/L=Bar/O=Baz/CN=localhost"`,
 				execOptions
 			);
-            execSync( `openssl rsa -in ./certs/key.tmp.pem -out ${ key }`, execOptions );
-            if(process.platform === "win32"){
-                execSync( 'REM ./certs/key.tmp.pem', execOptions );
-            } else {
-                execSync( 'rm ./certs/key.tmp.pem', execOptions );
-            }
+			execSync( `openssl rsa -in ./certs/key.tmp.pem -out ${ key }`, execOptions );
+			if(process.platform === "win32"){
+				execSync( 'REM ./certs/key.tmp.pem', execOptions );
+			} else {
+				execSync( 'rm ./certs/key.tmp.pem', execOptions );
+			}
 		} catch ( error ) {
 			console.error( error );
 		}
