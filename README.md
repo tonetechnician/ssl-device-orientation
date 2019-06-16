@@ -2,9 +2,9 @@
 
 This example has been taken from [here](https://blog.usejournal.com/securing-node-js-apps-with-ssl-tls-b3570dbf84a5).
 
-It is combined with the example taken from [here](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation) to demonstrate how https enables device orientation within the chrome and other browsers.
+It is combined with the example taken from [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation) to demonstrate how https enables device orientation within the chrome and other browsers. Using the command line tool you may simply choose to use either http or https.
 
-As seen in index.js, the openssl tool is used to generate the SSL/TLS certificate required by the browser to secure the connection. Currently a basic certificate is generated with the following credentials. 
+As seen in *index.js*, the openssl tool is used to generate the SSL/TLS certificate required by the browser to secure the connection. Currently a basic certificate is generated with the following credentials. 
 
 
 **Certificate Details**
