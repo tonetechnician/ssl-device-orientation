@@ -7,9 +7,6 @@ const express = require('express'),
 const pkg = require( './package.json' );
 
 const start = Date.now(),
-	// protocol = process.env.PROTOCOL || 'https',
-	// port = process.env.PORT || '3000',
-	// host = process.env.HOST || 'localhost';
 	protocol = args.protocol || 'https',
 	port = args.port || '3000',
 	host = args.host || 'localhost';
