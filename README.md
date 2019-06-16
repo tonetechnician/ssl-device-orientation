@@ -8,14 +8,14 @@ As seen in index.js, the openssl tool is used to generate the SSL/TLS certificat
 
 
 **Certificate Details**
-Lifetime: 365 days
+- Lifetime: 365 days
 
-Country: US
-State: Foo
-Location: Bar
-Organization: Baz
-Organizational Unit: --
-Common Name: localhost
+- Country: US
+- State: Foo
+- Location: Bar
+- Organization: Baz
+- Organizational Unit: --
+- Common Name: localhost
 
 ## Installation
 ### MacOSX
