@@ -42,9 +42,9 @@ Once installed, type
 
 ## How to Run 
 
-To run the example, simply run with arguments. 
+To run the example, simply run the following command with arguments. 
 
-`node index.js --host <YOUR_IP_ADDRESS> --port <YOUR_PORT> --protocol <SPECIFIED_PROTOCOL`
+`node index.js --host <YOUR_IP_ADDRESS> --port <YOUR_PORT> --protocol <SPECIFIED_PROTOCOL>`
 
 If the arguments are not specified it will default to 
 
